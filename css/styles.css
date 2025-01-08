@@ -11,8 +11,6 @@ body {
 
 body {
   background-color: #21222c;
-  display: flex;
-  flex-direction: column;
 }
 
 h1 {
