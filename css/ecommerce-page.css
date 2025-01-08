@@ -31,15 +31,22 @@ section {
 }
 
 .content-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   width: 100%;
   max-width: 964px;
   margin: 0 auto;
+  gap: 20px;
 }
 
 .header-content {
 }
 
 .logo-search {
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
 
 .logo {
@@ -50,6 +57,7 @@ section {
 }
 
 .search-bar {
+  display: flex;
   width: 400px;
   background: #1f1f27;
   padding: 10px 20px;
@@ -70,7 +78,14 @@ section {
   color: #8d8ba5;
 }
 
+.search-icon {
+  text-align: end;
+  align-self: center;
+}
+
 .options {
+  display: flex;
+  gap: 20px;
 }
 
 .option {
