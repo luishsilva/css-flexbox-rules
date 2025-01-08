@@ -32,6 +32,7 @@ section {
 
 .content-wrapper {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
   width: 100%;
@@ -128,6 +129,8 @@ section {
 }
 
 .view-options {
+  display: flex;
+  gap: 20px;
 }
 
 i.fa-th-list {
@@ -135,11 +138,18 @@ i.fa-th-list {
 }
 
 .section-control {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
   padding-bottom: 20px;
   border-bottom: 1px solid #8d8ba5;
+  /* gap: 20px; */
 }
 
 .section-control .view-option {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 40px;
   height: 40px;
   border: 1px solid #8d8ba5;
@@ -147,7 +157,11 @@ i.fa-th-list {
 }
 
 .products {
+  display: flex;
+  flex-wrap: wrap;
   margin-top: 40px;
+  width: 100%;
+  gap: 20px;
 }
 
 .product {
