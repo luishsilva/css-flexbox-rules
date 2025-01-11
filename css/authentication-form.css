@@ -114,3 +114,19 @@ input[type="submit"]:hover {
 .form select {
   height: 30px;
 }
+
+.form-group-horizontal-control {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+}
+
+.form-group-horizontal-control .form-input-control {
+  width: 100% !important;
+}
+
+#state,
+#city{
+  width: 100%;
+  box-sizing: border-box;
+}
